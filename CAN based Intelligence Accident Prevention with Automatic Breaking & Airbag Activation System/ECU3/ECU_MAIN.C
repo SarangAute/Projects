@@ -1,7 +1,7 @@
 #include<LPC21XX.H>
 #include"CAN.H"
 #include"UART0.H"
-#include"DELAY.H"
+#include"DELAY.H
 
 int main(){
 	CAN2_MSG m1,m2;	//m1=rx , m2=tx
