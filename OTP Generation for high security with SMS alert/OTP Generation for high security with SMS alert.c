@@ -7,7 +7,7 @@
 /******GLOBAL DECLARATIONS*******/
 unsigned char name[] = "OTP Generation for high security with SMS alert ";
 unsigned char S1[] = "ENTER THE PASS";
-unsigned int cn, cnt=0;
+unsigned int cn, cnt=0;		//for IR Sensor in ISR
 
 void isr0(void) __irq
 {
